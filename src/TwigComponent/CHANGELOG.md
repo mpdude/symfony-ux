@@ -1,5 +1,9 @@
 # CHANGELOG
 
+## 2.33
+
+-  Deprecate using `null` to add an attribute. Starting in `3.0`, passing `true` explicitly sets the attribute, while passing `false` or `null` omits it.
+
 ## 2.32
 
 -  Add option `profiler.collect_components` to control component data collection
